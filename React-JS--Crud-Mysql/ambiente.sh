@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt update -y ; sudo apt upgrade -y 
+
 
 
 touch /etc/systemd/system/serverExpress.service
