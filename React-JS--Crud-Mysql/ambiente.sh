@@ -1,20 +1,7 @@
 #!/bin/bash
 
 sudo apt update -y ; sudo apt upgrade -y 
-sudo apt install apache2 -y
-sudo apt install nodejs -y
-sudo apt install npm -y
-sudo apt install wget -y
 
-wget -c https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
-
-dpkg -i mysql-apt-config_0.8.24-1_all.deb
-sudo apt update -y ; sudo apt upgrade -y
-
-sudo apt install mysql-server -y
-sudo apt update -y ; sudo apt upgrade -y
-
-mysql -h"localhost" -u"root" -p"fatecsjc" -e "create database embraer;"
 
 touch /etc/systemd/system/serverExpress.service
 
