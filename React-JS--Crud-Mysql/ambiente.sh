@@ -11,7 +11,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=root
-ExecStart=/usr/bin/node /opt/server/dist/index.js
+ExecStart=/usr/bin/node /opt/server/index.js
  
 [Install]
 WantedBy=multi-user.target
