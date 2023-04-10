@@ -1,8 +1,5 @@
 #!/bin/bash
 
-
-
-
 touch /etc/systemd/system/serverExpress.service
 
 echo "[Unit]
