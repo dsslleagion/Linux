@@ -64,6 +64,6 @@ echo "<VirtualHost *:80>
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet" > 000-default.conf
 
 
-sudo a2enmod rewrite
+a2enmod rewrite
 
-sudo service apache2 restart
+service apache2 restart
